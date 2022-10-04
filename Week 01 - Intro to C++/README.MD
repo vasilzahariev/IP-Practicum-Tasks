@@ -1,6 +1,7 @@
 # Задачи за Въведение в C++
 ## Set up-ване на VS Code
 Windows: https://code.visualstudio.com/docs/cpp/config-mingw
+
 Linux: https://code.visualstudio.com/docs/cpp/config-linux
 
 ## Задача 0: [Секция 1.2 от задачите на доц. Калин Георгиев](https://github.com/stranxter/lecture-notes/blob/master/homeworks/Problems%20in%20Programming.pdf)
