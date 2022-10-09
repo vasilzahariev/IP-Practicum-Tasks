@@ -6,7 +6,7 @@ Linux: https://code.visualstudio.com/docs/cpp/config-linux
 
 Mac: https://code.visualstudio.com/docs/cpp/config-clang-mac
 
-## Полезни видеа (Ако не пишете на Visual Studio можете да пропуснете часттите, които са VS-specific, но няма да ви навреди и да ги изгледате:), може само повече да научите):
+## Полезни видеа (Ако не пишете на Visual Studio можете да пропуснете частите, които са VS-specific, но няма да ви навреди и да ги изгледате:), може само повече да научите):
 - Силно препоръчително:
     - [Променливи](https://youtu.be/zB9RI8_wExo)
 - Препоръчително:
