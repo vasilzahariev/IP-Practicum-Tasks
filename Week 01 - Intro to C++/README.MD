@@ -4,7 +4,7 @@ Windows: https://code.visualstudio.com/docs/cpp/config-mingw
 
 Linux: https://code.visualstudio.com/docs/cpp/config-linux
 
-## Задача 0: [Секция 1.2 от задачите на доц. Калин Георгиев](https://github.com/stranxter/lecture-notes/blob/master/homeworks/Problems%20in%20Programming.pdf)
+## Задача 0: [Секция 1.2 от задачите на доц. Калин Георгиев](https://github.com/vasilzahariev/IP-Practicum-Tasks/blob/main/Week%2001%20-%20Intro%20to%20C%2B%2B/Kalin%20Georgiev's%20Problems.pdf)
 
 ## Задача 1
 Напишете програма, която приема 2 *цели числа* и принтира техния сбор, разлика, произведение, частно и остатък. Всички са цели числа
