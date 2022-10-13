@@ -4,7 +4,7 @@
 
 - Силно препоръчително:
   - [Условни оператори - if, else, else if](https://youtu.be/qEgCT87KOfc)
-  - [Троичен (ternary) оператор](https://youtu.be/ezqsL-st8qg)
+  - [Тенарен (ternary) оператор](https://youtu.be/ezqsL-st8qg)
 
 ## Отговори на бързите въпроси (малко теория)
 
