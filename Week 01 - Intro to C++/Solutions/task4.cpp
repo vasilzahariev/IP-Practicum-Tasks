@@ -5,8 +5,8 @@ int main() {
 
     std::cin >> letterIndex;
 
-    char upperLetter = (char) (letterIndex + 64);
-    char lowerLetter = (char) (letterIndex + 96);
+    char upperLetter = 'A' + (letterIndex - 1);
+    char lowerLetter = 'a' + (letterIndex - 1);
 
     std::cout << upperLetter << ' ' << lowerLetter << std::endl;
 
