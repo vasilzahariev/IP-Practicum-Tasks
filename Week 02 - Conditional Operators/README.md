@@ -194,4 +194,6 @@ std::cout << y1 << ' ' << y2 << std::endl; // 3 4
 
 ```
 
+Pre-increment извършва една операция по-малко (в бъдеще ще разберете каква и какво точно), поради което ще бъде предпочитаната от нас. Разбира се, когато се налага да изпозлвате post-increment ще го правите.
+
 ## [Време за задачи](https://github.com/vasilzahariev/IP-Practicum-Tasks/blob/main/Week%2002%20-%20Conditional%20Operators/Tasks.md)
