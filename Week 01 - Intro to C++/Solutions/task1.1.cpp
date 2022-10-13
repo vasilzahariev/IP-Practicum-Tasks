@@ -1,8 +1,8 @@
 #include <iostream>
 
 int main() {
-    double firstNumber;
-    double secondNumber;
+    double firstNumber = 0;
+    double secondNumber = 0;
 
     std::cin >> firstNumber >> secondNumber;
 

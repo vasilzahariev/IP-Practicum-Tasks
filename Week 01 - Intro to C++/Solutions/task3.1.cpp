@@ -2,8 +2,8 @@
 #include <cmath>
 
 int main() {
-    double x;
-    double y;
+    double x = 0;
+    double y = 0;
 
     std::cin >> x >> y;
 

@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    unsigned letterIndex;
+    unsigned letterIndex = 0;
 
     std::cin >> letterIndex;
 
