@@ -21,11 +21,7 @@ int main() {
         ++negativeNumbersCounter;
     }
 
-    if (negativeNumbersCounter % 2 != 0) {
-        std::cout << '-' << std::endl;
-    } else {
-        std::cout << '+' << std::endl;
-    }
+    std::cout << (negativeNumbersCounter % 2 == 0 ? '+' : '-') << std::endl;
 
     return 0;
 }
