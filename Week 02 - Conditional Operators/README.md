@@ -187,7 +187,7 @@ int x1 = 3; // x1 = 3
 int y1 = ++x1; // x1 = 4, y1 = 4
 
 int x2 = 3; // x2 = 3
-int y2 = ++x2; // x2 = 4, y2 = 3
+int y2 = x2++; // x2 = 4, y2 = 3
 
 std::cout << x1 << ' ' << x2 << std::endl; // 4 4
 std::cout << y1 << ' ' << y2 << std::endl; // 3 4
