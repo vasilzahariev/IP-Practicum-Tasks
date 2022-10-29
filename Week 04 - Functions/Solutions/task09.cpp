@@ -1,57 +1,47 @@
 #include <iostream>
 
+bool checkIfNKAreCorrect(unsigned n, unsigned k);
+
 unsigned long long permutation(unsigned n);
 unsigned long long variation(unsigned n, unsigned k);
 unsigned long long combination(unsigned n, unsigned k);
 
+void executeCommand(char cmd, unsigned n, unsigned k);
+
 int main() {
     char cmd;
-    unsigned n;
-    unsigned k;
     
     do {
         std::cin >> cmd;
+        
+        if (cmd == 'P' || cmd == 'V' || cmd == 'C') {
+            unsigned n = 0;
+            unsigned k = 0;
 
-        switch (cmd) {
-        case 'E':
-            break;
-        case 'P':
             std::cin >> n;
 
-            std::cout << "P(n) = " << permutation(n) << std::endl;
-
-            break;
-
-        case 'V':
-            std::cin >> n >> k;
-
-            if (n < k) {
-                std::cout << "Invalid (n, k) input!" << std::endl;
-                break;
+            if (cmd == 'V' || cmd == 'C') {
+                std::cin >> k;
             }
 
-            std::cout << "V(n, k) = " << variation(n, k) << std::endl;
-
-            break;
-
-        case 'C':
-            std::cin >> n >> k;
-
-            if (n < k) {
-                std::cout << "Invalid (n, k) input!" << std::endl;
-                break;
-            }
-
-            std::cout << "C(n, k) = " << combination(n, k) << std::endl;
-
-            break;
-        default:
+            executeCommand(cmd, n, k);
+        } else if (cmd != 'E') {
             std::cout << "Invalid command input!" << std::endl;
-            break;
         }
+
     } while (cmd != 'E');
 
     return 0;
+}
+
+bool checkIfNKAreCorrect(unsigned n, unsigned k) {
+    if (n < k) {
+        std::cout << "Invalid (n, k) input!" << std::endl;
+
+        return false;
+    }
+
+    return true;
 }
 
 unsigned long long permutation(unsigned n) {
@@ -76,4 +66,14 @@ unsigned long long variation(unsigned n, unsigned k) {
 
 unsigned long long combination(unsigned n, unsigned k) {
     return variation(n, k) / permutation(k);
+}
+
+void executeCommand(char cmd, unsigned n, unsigned k) {
+    if (cmd != 'P' && !checkIfNKAreCorrect(n, k)) {
+        return;
+    }
+
+    unsigned long long result = (cmd == 'P' ? permutation(n) : (cmd == 'V' ? variation(n, k) : combination(n, k)));
+
+    std::cout << cmd << "(n" << (cmd == 'P' ? ")" : ", k)") << " = " << result << std::endl;
 }

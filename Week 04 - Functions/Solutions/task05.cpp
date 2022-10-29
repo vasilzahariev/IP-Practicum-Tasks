@@ -1,7 +1,7 @@
 #include <iostream>
 
 unsigned countDigitInNumber(unsigned digit, int number);
-int findMostCommonDigit(int number);
+unsigned findMostCommonDigit(int number);
 
 int main() {
     int number;
@@ -28,7 +28,7 @@ unsigned countDigitInNumber(unsigned digit, int number) {
     return counter;
 }
 
-int findMostCommonDigit(int number) {
+unsigned findMostCommonDigit(int number) {
     unsigned mostCommonDigit = 0;
     unsigned countOfMostCommonDigit = 0;
 

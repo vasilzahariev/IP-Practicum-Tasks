@@ -1,6 +1,7 @@
 #include <iostream>
-#include<iomanip>
+#include <iomanip>
 
+void printWithALeadingZero(unsigned number);
 void printNewHoursAndMinutes(unsigned hours, unsigned minutes, unsigned minutesToAdd);
 
 int main() {
@@ -21,6 +22,10 @@ int main() {
     return 0;
 }
 
+void printWithALeadingZero(unsigned number) {
+    std::cout << std::setw(2) << std::setfill('0') << number;
+}
+
 void printNewHoursAndMinutes(unsigned hours, unsigned minutes, unsigned minutesToAdd) {
     minutes += minutesToAdd;
     hours += minutes / 60;
@@ -28,5 +33,8 @@ void printNewHoursAndMinutes(unsigned hours, unsigned minutes, unsigned minutesT
     minutes %= 60;
     hours %= 24;
 
-    std::cout << std::setw(2) << std::setfill('0') << hours << ':' << std::setw(2) << std::setfill('0') << minutes << std::endl;
+    printWithALeadingZero(hours);
+    std::cout << ':';
+    printWithALeadingZero(minutes);
+    std::cout << std::endl;
 }
