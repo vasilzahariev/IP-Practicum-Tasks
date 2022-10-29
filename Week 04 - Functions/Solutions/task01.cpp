@@ -1,6 +1,6 @@
 #include <iostream>
 
-unsigned int absolute(int number);
+unsigned absolute(int number);
 
 int main() {
     int number;
@@ -12,6 +12,6 @@ int main() {
     return 0;
 }
 
-unsigned int absolute(int number) {
+unsigned absolute(int number) {
     return (number >= 0 ? number : (-1 * number));
 }
