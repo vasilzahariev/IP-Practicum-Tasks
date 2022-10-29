@@ -11,3 +11,5 @@
 ## Теми
 ### Тема 1 - [Въведение в C++](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2001%20-%20Intro%20to%20C%2B%2B)
 ### Тема 2 - [Условни оператори](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2002%20-%20Conditional%20Operators)
+### Тема 3 - [Цикли](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2003%20-%20Loops)
+### Тема 4 - [Функции](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2004%20-%20Functions)
