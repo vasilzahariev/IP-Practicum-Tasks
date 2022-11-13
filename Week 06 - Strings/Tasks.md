@@ -380,5 +380,3 @@ false
 Let's Breakt It One Last Time:)
 
 ```
-
-## [Задача 16 (credit: nigosto) - Task 12](https://github.com/fmi-lab/up-kn-2022-2023-group-2/tree/main/Week%2005%20-%20Arrays#task-12---run-length-decode)
