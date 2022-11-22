@@ -15,3 +15,4 @@
 ### Тема 4 - [Функции](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2004%20-%20Functions)
 ### Тема 5 - [Масиви](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2005%20-%20Arrays)
 ### Тема 6 - [Низове](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2006%20-%20Strings)
+### Тема 7 - [Матрици](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2008%20-%20Matrixes)
