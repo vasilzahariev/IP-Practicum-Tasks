@@ -16,3 +16,4 @@
 ### Тема 5 - [Масиви](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2005%20-%20Arrays)
 ### Тема 6 - [Низове](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2006%20-%20Strings)
 ### Тема 7 - [Матрици](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2008%20-%20Matrixes)
+### Тема 8 - [Пойнтъри (указатели) и референции](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2009%20-%20Pointers%20and%20References)
