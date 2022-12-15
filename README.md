@@ -18,7 +18,7 @@
 ### Тема 7 (22.11.2022) - [Матрици](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2008%20-%20Matrixes)
 ### Тема 8 (29.11.2022) - [Пойнтъри (указатели) и референции](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2009%20-%20Pointers%20and%20References)
 ### Тема 9 (06.11.2022) - [Рекурсия](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2010%20-%20Recursion)
-### Тема 10 (13.12.2022) - Backtracking
+### Тема 10 (13.12.2022) - [Backtracking](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2011%20-%20Backtracking/)
 ### Тема 11 (20.12.2022) - Структури
 ### Тема 12 (03.01.2023) - Динамична памет
 ### Тема 13 (10.01.2023) - Текстови файлове
