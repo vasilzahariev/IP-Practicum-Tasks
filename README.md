@@ -19,10 +19,9 @@
 ### Тема 8 (29.11.2022) - [Пойнтъри (указатели) и референции](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2009%20-%20Pointers%20and%20References)
 ### Тема 9 (06.11.2022) - [Рекурсия](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2010%20-%20Recursion)
 ### Тема 10 (13.12.2022) - [Backtracking](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2011%20-%20Backtracking/)
-### Тема 11 (20.12.2022) - Структури
-### Тема 12 (03.01.2023) - Динамична памет
-### Тема 13 (10.01.2023) - Текстови файлове
-### Тема 14 (17.01.2023) - Бинарни файлове
+### Тема 11 (03.01.2023) - [Структури](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Week%2011%20-%20Backtracking/)
+### Тема 12 (10.01.2023) - Динамична памет
+### Тема 13 (17.01.2023) - Текстови файлове
 
 ## Допълнителни
 ### [Подготовка за първо контролно](https://github.com/vasilzahariev/IP-Practicum-Tasks/tree/main/Control%20Exam%20Preparation%2001)
